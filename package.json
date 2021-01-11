@@ -1,6 +1,6 @@
 {
   "name": "wp-performant-media",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple lazy-loading images with subtle CSS transition and polyfill support.",
   "main": "index.js",
   "repository": "git@github.com:pixelcollective/wp-performant-media.git",
@@ -8,14 +8,14 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/wp-performant-media.js",
-    "build": "parcel build src/wp-performant-media.js"
+    "build": "parcel build src/wp-performant-media.js --public-url ../dist/"
   },
   "dependencies": {
-    "intersection-observer": "^0.5.1",
-    "lozad": "^1.7.0",
-    "sass": "^1.14.3"
+    "intersection-observer": "0.12.0",
+    "lozad": "1.16.0",
+    "sass": "1.32.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "1.12.4"
   }
 }
